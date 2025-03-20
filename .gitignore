@@ -1,0 +1,14 @@
+# Git ignore file for TTS project
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore environment variable files (contains sensitive information)
+.env
+
+# Example environment file should be included in the repository
+! .env-example
+
+# Ignore audio output files (generated files, not part of source code)
+output.mp3
+output.wav
