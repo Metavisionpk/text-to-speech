@@ -1,4 +1,4 @@
-#*****************Section2*******************#
+#*****************Section1*******************#
 #speech to text using Amazon polly 
 import boto3
 import os
